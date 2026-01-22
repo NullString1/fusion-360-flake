@@ -59,6 +59,7 @@ Installation Directory:
   Override with: FUSION360_INSTALL_DIR=<path>
 
 For more information, visit:
+  https://github.com/nullstring1/fusion-360-flake
   https://github.com/cryinkfly/Autodesk-Fusion-360-for-Linux
 
 Credit to cryinkfly for the original project. https://cryinkfly.com/sponsors/
