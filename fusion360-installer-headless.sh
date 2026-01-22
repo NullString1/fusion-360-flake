@@ -211,6 +211,9 @@ sed -i '/run_wine_autodesk_fusion/{/function/!s/^/    # /}' "$PATCHED_INSTALLER"
 # Disable the xdg-open sponsors link
 sed -i '/xdg-open.*cryinkfly\.com\/sponsors/s/^/    # /' "$PATCHED_INSTALLER"
 
+# Disable MIME handler setup (handled by the flake instead)
+sed -i '/xdg-mime default adskidmgr-opener\.desktop/s/^/    # /' "$PATCHED_INSTALLER"
+
 # Inject backup creation right before autodesk_fusion_run_install_client
 if [[ "$CREATE_BACKUP" == "true" ]] || [[ "$SKIP_WINE_SETUP" == "false" && ! -d "$WINEPREFIX_BACKUP" ]]; then
     log "Injecting Wine prefix backup into installer (before FusionClientInstaller runs)..."
