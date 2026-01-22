@@ -60,6 +60,8 @@ Installation Directory:
 
 For more information, visit:
   https://github.com/cryinkfly/Autodesk-Fusion-360-for-Linux
+
+Credit to cryinkfly for the original project. https://cryinkfly.com/sponsors/
 EOF
 }
 
