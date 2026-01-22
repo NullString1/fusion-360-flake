@@ -1,0 +1,44 @@
+{
+  "nodes": {
+    "fusion360-installer-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1766155623,
+        "narHash": "sha256-tR7A4ICV9DiA6g5/3QvDyUyMQAf/jEJXuWl+/33rn8o=",
+        "owner": "cryinkfly",
+        "repo": "Autodesk-Fusion-360-for-Linux",
+        "rev": "8a163036e744bfd9d7a01708abcf27581c22cff3",
+        "type": "github"
+      },
+      "original": {
+        "owner": "cryinkfly",
+        "repo": "Autodesk-Fusion-360-for-Linux",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1768886240,
+        "narHash": "sha256-C2TjvwYZ2VDxYWeqvvJ5XPPp6U7H66zeJlRaErJKoEM=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "80e4adbcf8992d3fd27ad4964fbb84907f9478b0",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "fusion360-installer-src": "fusion360-installer-src",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
